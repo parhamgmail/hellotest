@@ -10,9 +10,13 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.hello"
     },
-    "cordova-plugin-filepath": {
+    "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.example.hello"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  }
 }
